@@ -1,0 +1,16 @@
+.state {
+    &__box {
+        display: block;
+       background-color: brown;
+        padding: 20px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+    }
+
+    &__box--hidden {
+        background-color: yellow;
+    }
+}
